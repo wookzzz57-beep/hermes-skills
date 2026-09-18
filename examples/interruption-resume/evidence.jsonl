@@ -1,0 +1,1 @@
+{"schema":"hermes-durable/evidence-v1","task_id":"checkout-17","timestamp":"2026-09-18T11:02:00+00:00","kind":"test","summary":"Regression test reproduces duplicate submit before the fix","command":"pytest tests/checkout/test_duplicate_submit.py -q","result":"1 failed as expected"}
