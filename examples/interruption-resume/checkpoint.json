@@ -1,0 +1,11 @@
+{
+  "schema": "hermes-durable/checkpoint-v1",
+  "task_id": "checkout-17",
+  "stage": "implementation",
+  "completed_steps": [
+    "reproduced duplicate submit",
+    "added regression test"
+  ],
+  "next_action": "Guard the submit path with the existing in-flight request state",
+  "updated_at": "2026-09-18T11:03:00+00:00"
+}
