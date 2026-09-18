@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=70"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hermes-durable"
+version = "0.1.0"
+description = "Durable task state, checkpoint/resume, and evidence gates for coding agents."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "wookzzz57-beep" }]
+keywords = ["codex", "coding-agents", "agent-skills", "checkpoint", "verification", "ai-agents"]
+
+[project.scripts]
+hermes-durable = "hermes_durable.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
