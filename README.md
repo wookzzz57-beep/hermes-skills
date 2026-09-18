@@ -1,5 +1,7 @@
 # Hermes Durable Skills
 
+[![CI](https://github.com/wookzzz57-beep/hermes-skills/actions/workflows/ci.yml/badge.svg)](https://github.com/wookzzz57-beep/hermes-skills/actions/workflows/ci.yml)
+
 **Durable task state, checkpoint/resume, and evidence gates for coding agents.**
 
 Works with Codex, Claude Code, Cursor, Hermes Agent, and any agent that can read `SKILL.md` and repository files.
@@ -69,6 +71,8 @@ Durable state lives with the repository:
 
 A new session can read those files and continue the actual task instead of reconstructing intent from chat history.
 
+**Try the full interruption/resume walkthrough:** [examples/interruption-resume](./examples/interruption-resume/README.md)
+
 ## Install the skills
 
 Clone once:
@@ -136,3 +140,5 @@ Issues and PRs that reproduce real maintenance failures are especially useful. S
 ## License
 
 MIT
+
+If this project fixes a real maintenance failure for you, a GitHub star helps other maintainers discover it.
