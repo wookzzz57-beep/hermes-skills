@@ -1,0 +1,20 @@
+{
+  "schema": "hermes-durable/task-v1",
+  "task_id": "checkout-17",
+  "objective": "Fix duplicate checkout submission without changing the public API",
+  "scope": [
+    "src/checkout"
+  ],
+  "non_goals": [
+    "Refactor payment providers"
+  ],
+  "constraints": [],
+  "acceptance": [
+    "duplicate-submit regression test passes",
+    "existing checkout tests still pass"
+  ],
+  "stop_conditions": [],
+  "status": "implementation",
+  "created_at": "2026-09-18T11:00:00+00:00",
+  "updated_at": "2026-09-18T11:03:00+00:00"
+}
