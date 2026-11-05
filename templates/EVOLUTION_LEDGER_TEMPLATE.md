@@ -1,0 +1,32 @@
+# Evolution Ledger — Candidate Record
+
+- candidate_id:
+- source_ids:
+- event_date:
+- affected_skill_or_automation:
+- base_version:
+- proposed_version:
+- problem_and_original_failure:
+- scope:
+- non_goals:
+- baseline_metric:
+- expected_metric:
+- minimal_patch_ref:
+- fixture_refs:
+  - positive:
+  - negative:
+  - regression:
+  - transfer:
+- static_result: NOT_RUN
+- replay_result: NOT_RUN
+- regression_result: NOT_RUN
+- transfer_result: NOT_RUN
+- independent_verifier: NOT_RUN
+- authorization_level: L1
+- rollback_ref:
+- lifecycle: CANDIDATE
+- owner:
+- persistence_state: ANALYSIS_ONLY
+- evidence_refs:
+- resume_point:
+- next_test:
